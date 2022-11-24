@@ -1,21 +1,4 @@
-//VARIBLES
-Boolean start=false, noNowReallyStart=false;
-float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-int appWidth, appHeight;
-color quitButtonColour, red=#FF0A0A, yellow=#FAFF00;
-void setup ()  
-{
-  size(500,400);
-  
-  appWidth = width;
-  appHeight = height;
-Population();
-}
-
-void draw () {
-  //
-println("X-value",quitButtonX, mouseX ,quitButtonWidth);
-println("Y-value",quitButtonY, mouseY ,quitButtonHeight);
+void Program() {
 if (noNowReallyStart==true ) background(0);
 
 /*if () {
@@ -40,4 +23,4 @@ void mousePressed ()
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
   start = true;
 println("To Start Press the Space Bar");
-}
+}};
